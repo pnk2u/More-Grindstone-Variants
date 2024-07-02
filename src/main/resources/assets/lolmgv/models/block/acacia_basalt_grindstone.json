@@ -2,7 +2,7 @@
   "parent": "block/block",
   "textures": {
     "pivot": "lolmgv:block/acacia_grindstone_pivot",
-    "round": "block/grindstone_round",
+    "round": "lolmgv:block/basalt_grindstone_round",
     "side": "lolmgv:block/basalt_grindstone_side",
     "particle": "lolmgv:block/basalt_grindstone_side",
     "leg": "block/acacia_log"
