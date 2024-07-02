@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#lolmgv:basalt_grindstone_ingredients"
+            "tag": "lolmgv:basalt_grindstone_ingredients"
           }
         ]
       },
@@ -15,7 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:bamboo_planks"
+            "items": ["minecraft:bamboo_planks"]
           }
         ]
       },
