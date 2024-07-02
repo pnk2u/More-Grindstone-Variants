@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "-": {
+      "tag": "lolmgv:basalt_grindstone_ingredients"
+    },
+    "P": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "|-|",
+    "P P"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lolmgv:dark_oak_basalt_grindstone"
+  }
+}

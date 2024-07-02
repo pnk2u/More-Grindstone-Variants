@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "-": {
+      "tag": "lolmgv:basalt_grindstone_ingredients"
+    },
+    "P": {
+      "item": "minecraft:mangrove_planks"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "|-|",
+    "P P"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lolmgv:mangrove_basalt_grindstone"
+  }
+}

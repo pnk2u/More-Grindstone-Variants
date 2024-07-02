@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "-": {
+      "tag": "lolmgv:deepslate_grindstone_ingredients"
+    },
+    "P": {
+      "item": "minecraft:warped_planks"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "|-|",
+    "P P"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lolmgv:warped_deepslate_grindstone"
+  }
+}

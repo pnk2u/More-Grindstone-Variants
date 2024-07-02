@@ -1,0 +1,13 @@
+{
+  "required": true ,
+  "package": "com.pnku.mgv.mixin" ,
+  "compatibilityLevel": "JAVA_21" ,
+  "mixins": [
+    "GrindstoneMenuMixin" ,
+    "PoiTypesAccessor"
+  ] ,
+  "injectors": {
+    "defaultRequire": 1
+  } ,
+  "minVersion": "0.8"
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "lolmgv:warped_stone_grindstone",
+    "lolmgv:crimson_stone_grindstone",
+    "lolmgv:warped_sandstone_grindstone",
+    "lolmgv:crimson_sandstone_grindstone",
+    "lolmgv:warped_deepslate_grindstone",
+    "lolmgv:crimson_deepslate_grindstone",
+    "lolmgv:warped_basalt_grindstone",
+    "lolmgv:crimson_basalt_grindstone",
+    "lolmgv:warped_granite_grindstone",
+    "lolmgv:crimson_granite_grindstone"
+  ]
+}
