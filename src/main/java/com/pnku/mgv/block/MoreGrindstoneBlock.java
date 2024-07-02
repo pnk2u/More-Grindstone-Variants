@@ -8,13 +8,13 @@ public class MoreGrindstoneBlock extends GrindstoneBlock {
     public final String grindstoneStoneType;
 
     public MoreGrindstoneBlock(MapColor colour, String grindstoneWoodType, Block planks, String grindstoneStoneType, Block stone, String id) {
-        super(Properties.ofFullCopy(Blocks.GRINDSTONE).mapColor(colour));
+        super(Properties.copy(Blocks.GRINDSTONE).mapColor(colour));
         this.grindstoneWoodType = grindstoneWoodType;
         this.grindstoneStoneType = grindstoneStoneType;
     }
 
     public MoreGrindstoneBlock(MapColor colour, SoundType sound, String grindstoneWoodType, Block planks, String grindstoneStoneType, Block stone, String id) {
-        super(Properties.ofFullCopy(Blocks.GRINDSTONE).mapColor(colour).sound(sound));
+        super(Properties.copy(Blocks.GRINDSTONE).mapColor(colour).sound(sound));
         this.grindstoneWoodType = grindstoneWoodType;
         this.grindstoneStoneType = grindstoneStoneType;
     }
