@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "basalt_grindstones",
   "key": {
     "-": {
       "tag": "lolmgv:basalt_grindstone_ingredients"

@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "stone_grindstones",
   "key": {
     "-": {
       "item": "minecraft:stone_slab"
