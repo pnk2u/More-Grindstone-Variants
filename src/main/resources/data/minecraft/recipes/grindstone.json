@@ -1,6 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "fabric:load_conditions": [
+  {
+    "condition": "fabric:not",
+    "value":     {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mstv-base"
+      ]
+    }
+  }
+],
   "category": "building",
+  "group": "stone_grindstones",
   "key": {
     "-": {
       "item": "minecraft:stone_slab"
