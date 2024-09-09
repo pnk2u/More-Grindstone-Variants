@@ -3,70 +3,70 @@
     {
       "structures": "#quad:is/oak",
       "block_replacement": {
-        "targets": "minecraft:barrel",
+        "targets": "minecraft:grindstone",
         "replacement": "lolmgv:oak_stone_grindstone"
       }
     },
     {
       "structures": "#quad:is/birch",
       "block_replacement": {
-        "targets": "minecraft:barrel",
+        "targets": "minecraft:grindstone",
         "replacement": "lolmgv:birch_stone_grindstone"
       }
     },
     {
       "structures": "#quad:is/jungle",
       "block_replacement": {
-        "targets": "minecraft:barrel",
+        "targets": "minecraft:grindstone",
         "replacement": "lolmgv:jungle_sandstone_grindstone"
       }
     },
     {
       "structures": "#quad:is/acacia",
       "block_replacement": {
-        "targets": "minecraft:barrel",
+        "targets": "minecraft:grindstone",
         "replacement": "lolmgv:acacia_stone_grindstone"
       }
     },
     {
       "structures": "#quad:is/spruce",
       "block_replacement": {
-        "targets": "minecraft:barrel",
+        "targets": "minecraft:grindstone",
         "replacement": "lolmgv:spruce_stone_grindstone"
       }
     },
     {
       "structures": "#quad:is/mangrove",
       "block_replacement": {
-        "targets": "minecraft:barrel",
+        "targets": "minecraft:grindstone",
         "replacement": "lolmgv:mangrove_stone_grindstone"
       }
     },
     {
       "structures": "#quad:is/cherry",
       "block_replacement": {
-        "targets": "minecraft:barrel",
+        "targets": "minecraft:grindstone",
         "replacement": "lolmgv:cherry_stone_grindstone"
       }
     },
     {
       "structures": "#quad:is/bamboo",
       "block_replacement": {
-        "targets": "minecraft:barrel",
+        "targets": "minecraft:grindstone",
         "replacement": "lolmgv:bamboo_stone_grindstone"
       }
     },
     {
       "structures": "#quad:is/crimson",
       "block_replacement": {
-        "targets": "minecraft:barrel",
+        "targets": "minecraft:grindstone",
         "replacement": "lolmgv:crimson_stone_grindstone"
       }
     },
     {
       "structures": "#quad:is/warped",
       "block_replacement": {
-        "targets": "minecraft:barrel",
+        "targets": "minecraft:grindstone",
         "replacement": "lolmgv:warped_stone_grindstone"
       }
     }
