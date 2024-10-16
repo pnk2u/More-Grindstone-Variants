@@ -5,64 +5,76 @@ import de.pnku.mgv.block.MoreGrindstoneBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.*;
 
-public class MgvItemInit {
-    public static final BlockItem OAK_GRINDSTONE_I = new BlockItem(MgvBlockInit.OAK_GRINDSTONE, new Item.Properties());
-    public static final BlockItem SPRUCE_GRINDSTONE_I = new BlockItem(MgvBlockInit.SPRUCE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem BIRCH_GRINDSTONE_I = new BlockItem(MgvBlockInit.BIRCH_GRINDSTONE, new Item.Properties());
-    public static final BlockItem JUNGLE_GRINDSTONE_I = new BlockItem(MgvBlockInit.JUNGLE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem ACACIA_GRINDSTONE_I = new BlockItem(MgvBlockInit.ACACIA_GRINDSTONE, new Item.Properties());
-    public static final BlockItem MANGROVE_GRINDSTONE_I = new BlockItem(MgvBlockInit.MANGROVE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem CHERRY_GRINDSTONE_I = new BlockItem(MgvBlockInit.CHERRY_GRINDSTONE, new Item.Properties());
-    public static final BlockItem BAMBOO_GRINDSTONE_I = new BlockItem(MgvBlockInit.BAMBOO_GRINDSTONE, new Item.Properties());
-    public static final BlockItem CRIMSON_GRINDSTONE_I = new BlockItem(MgvBlockInit.CRIMSON_GRINDSTONE, new Item.Properties());
-    public static final BlockItem WARPED_GRINDSTONE_I = new BlockItem(MgvBlockInit.WARPED_GRINDSTONE, new Item.Properties());
-    public static final BlockItem OAK_SANDSTONE_GRINDSTONE_I = new BlockItem(MgvBlockInit.OAK_SANDSTONE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem DARK_OAK_SANDSTONE_GRINDSTONE_I = new BlockItem(MgvBlockInit.DARK_OAK_SANDSTONE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem SPRUCE_SANDSTONE_GRINDSTONE_I = new BlockItem(MgvBlockInit.SPRUCE_SANDSTONE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem BIRCH_SANDSTONE_GRINDSTONE_I = new BlockItem(MgvBlockInit.BIRCH_SANDSTONE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem JUNGLE_SANDSTONE_GRINDSTONE_I = new BlockItem(MgvBlockInit.JUNGLE_SANDSTONE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem ACACIA_SANDSTONE_GRINDSTONE_I = new BlockItem(MgvBlockInit.ACACIA_SANDSTONE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem MANGROVE_SANDSTONE_GRINDSTONE_I = new BlockItem(MgvBlockInit.MANGROVE_SANDSTONE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem CHERRY_SANDSTONE_GRINDSTONE_I = new BlockItem(MgvBlockInit.CHERRY_SANDSTONE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem BAMBOO_SANDSTONE_GRINDSTONE_I = new BlockItem(MgvBlockInit.BAMBOO_SANDSTONE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem CRIMSON_SANDSTONE_GRINDSTONE_I = new BlockItem(MgvBlockInit.CRIMSON_SANDSTONE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem WARPED_SANDSTONE_GRINDSTONE_I = new BlockItem(MgvBlockInit.WARPED_SANDSTONE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem OAK_DEEPSLATE_GRINDSTONE_I = new BlockItem(MgvBlockInit.OAK_DEEPSLATE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem DARK_OAK_DEEPSLATE_GRINDSTONE_I = new BlockItem(MgvBlockInit.DARK_OAK_DEEPSLATE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem SPRUCE_DEEPSLATE_GRINDSTONE_I = new BlockItem(MgvBlockInit.SPRUCE_DEEPSLATE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem BIRCH_DEEPSLATE_GRINDSTONE_I = new BlockItem(MgvBlockInit.BIRCH_DEEPSLATE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem JUNGLE_DEEPSLATE_GRINDSTONE_I = new BlockItem(MgvBlockInit.JUNGLE_DEEPSLATE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem ACACIA_DEEPSLATE_GRINDSTONE_I = new BlockItem(MgvBlockInit.ACACIA_DEEPSLATE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem MANGROVE_DEEPSLATE_GRINDSTONE_I = new BlockItem(MgvBlockInit.MANGROVE_DEEPSLATE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem CHERRY_DEEPSLATE_GRINDSTONE_I = new BlockItem(MgvBlockInit.CHERRY_DEEPSLATE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem BAMBOO_DEEPSLATE_GRINDSTONE_I = new BlockItem(MgvBlockInit.BAMBOO_DEEPSLATE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem CRIMSON_DEEPSLATE_GRINDSTONE_I = new BlockItem(MgvBlockInit.CRIMSON_DEEPSLATE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem WARPED_DEEPSLATE_GRINDSTONE_I = new BlockItem(MgvBlockInit.WARPED_DEEPSLATE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem OAK_BASALT_GRINDSTONE_I = new BlockItem(MgvBlockInit.OAK_BASALT_GRINDSTONE, new Item.Properties());
-    public static final BlockItem DARK_OAK_BASALT_GRINDSTONE_I = new BlockItem(MgvBlockInit.DARK_OAK_BASALT_GRINDSTONE, new Item.Properties());
-    public static final BlockItem SPRUCE_BASALT_GRINDSTONE_I = new BlockItem(MgvBlockInit.SPRUCE_BASALT_GRINDSTONE, new Item.Properties());
-    public static final BlockItem BIRCH_BASALT_GRINDSTONE_I = new BlockItem(MgvBlockInit.BIRCH_BASALT_GRINDSTONE, new Item.Properties());
-    public static final BlockItem JUNGLE_BASALT_GRINDSTONE_I = new BlockItem(MgvBlockInit.JUNGLE_BASALT_GRINDSTONE, new Item.Properties());
-    public static final BlockItem ACACIA_BASALT_GRINDSTONE_I = new BlockItem(MgvBlockInit.ACACIA_BASALT_GRINDSTONE, new Item.Properties());
-    public static final BlockItem MANGROVE_BASALT_GRINDSTONE_I = new BlockItem(MgvBlockInit.MANGROVE_BASALT_GRINDSTONE, new Item.Properties());
-    public static final BlockItem CHERRY_BASALT_GRINDSTONE_I = new BlockItem(MgvBlockInit.CHERRY_BASALT_GRINDSTONE, new Item.Properties());
-    public static final BlockItem BAMBOO_BASALT_GRINDSTONE_I = new BlockItem(MgvBlockInit.BAMBOO_BASALT_GRINDSTONE, new Item.Properties());
-    public static final BlockItem CRIMSON_BASALT_GRINDSTONE_I = new BlockItem(MgvBlockInit.CRIMSON_BASALT_GRINDSTONE, new Item.Properties());
-    public static final BlockItem WARPED_BASALT_GRINDSTONE_I = new BlockItem(MgvBlockInit.WARPED_BASALT_GRINDSTONE, new Item.Properties());
-    public static final BlockItem OAK_GRANITE_GRINDSTONE_I = new BlockItem(MgvBlockInit.OAK_GRANITE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem DARK_OAK_GRANITE_GRINDSTONE_I = new BlockItem(MgvBlockInit.DARK_OAK_GRANITE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem SPRUCE_GRANITE_GRINDSTONE_I = new BlockItem(MgvBlockInit.SPRUCE_GRANITE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem BIRCH_GRANITE_GRINDSTONE_I = new BlockItem(MgvBlockInit.BIRCH_GRANITE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem JUNGLE_GRANITE_GRINDSTONE_I = new BlockItem(MgvBlockInit.JUNGLE_GRANITE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem ACACIA_GRANITE_GRINDSTONE_I = new BlockItem(MgvBlockInit.ACACIA_GRANITE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem MANGROVE_GRANITE_GRINDSTONE_I = new BlockItem(MgvBlockInit.MANGROVE_GRANITE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem CHERRY_GRANITE_GRINDSTONE_I = new BlockItem(MgvBlockInit.CHERRY_GRANITE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem BAMBOO_GRANITE_GRINDSTONE_I = new BlockItem(MgvBlockInit.BAMBOO_GRANITE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem CRIMSON_GRANITE_GRINDSTONE_I = new BlockItem(MgvBlockInit.CRIMSON_GRANITE_GRINDSTONE, new Item.Properties());
-    public static final BlockItem WARPED_GRANITE_GRINDSTONE_I = new BlockItem(MgvBlockInit.WARPED_GRANITE_GRINDSTONE, new Item.Properties());
+import static de.pnku.mgv.init.MgvBlockInit.*;
 
+public class MgvItemInit {
+    public static final BlockItem OAK_GRINDSTONE_I = itemFromBlock(OAK_GRINDSTONE);
+    public static final BlockItem SPRUCE_GRINDSTONE_I = itemFromBlock(SPRUCE_GRINDSTONE);
+    public static final BlockItem BIRCH_GRINDSTONE_I = itemFromBlock(BIRCH_GRINDSTONE);
+    public static final BlockItem JUNGLE_GRINDSTONE_I = itemFromBlock(JUNGLE_GRINDSTONE);
+    public static final BlockItem ACACIA_GRINDSTONE_I = itemFromBlock(ACACIA_GRINDSTONE);
+    public static final BlockItem MANGROVE_GRINDSTONE_I = itemFromBlock(MANGROVE_GRINDSTONE);
+    public static final BlockItem CHERRY_GRINDSTONE_I = itemFromBlock(CHERRY_GRINDSTONE);
+    public static final BlockItem BAMBOO_GRINDSTONE_I = itemFromBlock(BAMBOO_GRINDSTONE);
+    public static final BlockItem CRIMSON_GRINDSTONE_I = itemFromBlock(CRIMSON_GRINDSTONE);
+    public static final BlockItem WARPED_GRINDSTONE_I = itemFromBlock(WARPED_GRINDSTONE);
+    public static final BlockItem OAK_SANDSTONE_GRINDSTONE_I = itemFromBlock(OAK_SANDSTONE_GRINDSTONE);
+    public static final BlockItem DARK_OAK_SANDSTONE_GRINDSTONE_I = itemFromBlock(DARK_OAK_SANDSTONE_GRINDSTONE);
+    public static final BlockItem SPRUCE_SANDSTONE_GRINDSTONE_I = itemFromBlock(SPRUCE_SANDSTONE_GRINDSTONE);
+    public static final BlockItem BIRCH_SANDSTONE_GRINDSTONE_I = itemFromBlock(BIRCH_SANDSTONE_GRINDSTONE);
+    public static final BlockItem JUNGLE_SANDSTONE_GRINDSTONE_I = itemFromBlock(JUNGLE_SANDSTONE_GRINDSTONE);
+    public static final BlockItem ACACIA_SANDSTONE_GRINDSTONE_I = itemFromBlock(ACACIA_SANDSTONE_GRINDSTONE);
+    public static final BlockItem MANGROVE_SANDSTONE_GRINDSTONE_I = itemFromBlock(MANGROVE_SANDSTONE_GRINDSTONE);
+    public static final BlockItem CHERRY_SANDSTONE_GRINDSTONE_I = itemFromBlock(CHERRY_SANDSTONE_GRINDSTONE);
+    public static final BlockItem BAMBOO_SANDSTONE_GRINDSTONE_I = itemFromBlock(BAMBOO_SANDSTONE_GRINDSTONE);
+    public static final BlockItem CRIMSON_SANDSTONE_GRINDSTONE_I = itemFromBlock(CRIMSON_SANDSTONE_GRINDSTONE);
+    public static final BlockItem WARPED_SANDSTONE_GRINDSTONE_I = itemFromBlock(WARPED_SANDSTONE_GRINDSTONE);
+    public static final BlockItem OAK_DEEPSLATE_GRINDSTONE_I = itemFromBlock(OAK_DEEPSLATE_GRINDSTONE);
+    public static final BlockItem DARK_OAK_DEEPSLATE_GRINDSTONE_I = itemFromBlock(DARK_OAK_DEEPSLATE_GRINDSTONE);
+    public static final BlockItem SPRUCE_DEEPSLATE_GRINDSTONE_I = itemFromBlock(SPRUCE_DEEPSLATE_GRINDSTONE);
+    public static final BlockItem BIRCH_DEEPSLATE_GRINDSTONE_I = itemFromBlock(BIRCH_DEEPSLATE_GRINDSTONE);
+    public static final BlockItem JUNGLE_DEEPSLATE_GRINDSTONE_I = itemFromBlock(JUNGLE_DEEPSLATE_GRINDSTONE);
+    public static final BlockItem ACACIA_DEEPSLATE_GRINDSTONE_I = itemFromBlock(ACACIA_DEEPSLATE_GRINDSTONE);
+    public static final BlockItem MANGROVE_DEEPSLATE_GRINDSTONE_I = itemFromBlock(MANGROVE_DEEPSLATE_GRINDSTONE);
+    public static final BlockItem CHERRY_DEEPSLATE_GRINDSTONE_I = itemFromBlock(CHERRY_DEEPSLATE_GRINDSTONE);
+    public static final BlockItem BAMBOO_DEEPSLATE_GRINDSTONE_I = itemFromBlock(BAMBOO_DEEPSLATE_GRINDSTONE);
+    public static final BlockItem CRIMSON_DEEPSLATE_GRINDSTONE_I = itemFromBlock(CRIMSON_DEEPSLATE_GRINDSTONE);
+    public static final BlockItem WARPED_DEEPSLATE_GRINDSTONE_I = itemFromBlock(WARPED_DEEPSLATE_GRINDSTONE);
+    public static final BlockItem OAK_BASALT_GRINDSTONE_I = itemFromBlock(OAK_BASALT_GRINDSTONE);
+    public static final BlockItem DARK_OAK_BASALT_GRINDSTONE_I = itemFromBlock(DARK_OAK_BASALT_GRINDSTONE);
+    public static final BlockItem SPRUCE_BASALT_GRINDSTONE_I = itemFromBlock(SPRUCE_BASALT_GRINDSTONE);
+    public static final BlockItem BIRCH_BASALT_GRINDSTONE_I = itemFromBlock(BIRCH_BASALT_GRINDSTONE);
+    public static final BlockItem JUNGLE_BASALT_GRINDSTONE_I = itemFromBlock(JUNGLE_BASALT_GRINDSTONE);
+    public static final BlockItem ACACIA_BASALT_GRINDSTONE_I = itemFromBlock(ACACIA_BASALT_GRINDSTONE);
+    public static final BlockItem MANGROVE_BASALT_GRINDSTONE_I = itemFromBlock(MANGROVE_BASALT_GRINDSTONE);
+    public static final BlockItem CHERRY_BASALT_GRINDSTONE_I = itemFromBlock(CHERRY_BASALT_GRINDSTONE);
+    public static final BlockItem BAMBOO_BASALT_GRINDSTONE_I = itemFromBlock(BAMBOO_BASALT_GRINDSTONE);
+    public static final BlockItem CRIMSON_BASALT_GRINDSTONE_I = itemFromBlock(CRIMSON_BASALT_GRINDSTONE);
+    public static final BlockItem WARPED_BASALT_GRINDSTONE_I = itemFromBlock(WARPED_BASALT_GRINDSTONE);
+    public static final BlockItem OAK_GRANITE_GRINDSTONE_I = itemFromBlock(OAK_GRANITE_GRINDSTONE);
+    public static final BlockItem DARK_OAK_GRANITE_GRINDSTONE_I = itemFromBlock(DARK_OAK_GRANITE_GRINDSTONE);
+    public static final BlockItem SPRUCE_GRANITE_GRINDSTONE_I = itemFromBlock(SPRUCE_GRANITE_GRINDSTONE);
+    public static final BlockItem BIRCH_GRANITE_GRINDSTONE_I = itemFromBlock(BIRCH_GRANITE_GRINDSTONE);
+    public static final BlockItem JUNGLE_GRANITE_GRINDSTONE_I = itemFromBlock(JUNGLE_GRANITE_GRINDSTONE);
+    public static final BlockItem ACACIA_GRANITE_GRINDSTONE_I = itemFromBlock(ACACIA_GRANITE_GRINDSTONE);
+    public static final BlockItem MANGROVE_GRANITE_GRINDSTONE_I = itemFromBlock(MANGROVE_GRANITE_GRINDSTONE);
+    public static final BlockItem CHERRY_GRANITE_GRINDSTONE_I = itemFromBlock(CHERRY_GRANITE_GRINDSTONE);
+    public static final BlockItem BAMBOO_GRANITE_GRINDSTONE_I = itemFromBlock(BAMBOO_GRANITE_GRINDSTONE);
+    public static final BlockItem CRIMSON_GRANITE_GRINDSTONE_I = itemFromBlock(CRIMSON_GRANITE_GRINDSTONE);
+    public static final BlockItem WARPED_GRANITE_GRINDSTONE_I = itemFromBlock(WARPED_GRANITE_GRINDSTONE);
+
+    public static BlockItem itemFromBlock(MoreGrindstoneBlock moreGrindstoneBlock) {
+        return new BlockItem(moreGrindstoneBlock, setProperties(moreGrindstoneBlock));
+    }
+
+    public static Item.Properties setProperties(MoreGrindstoneBlock moreGrindstoneBlock) {
+        return new Item.Properties()
+                .setId(ResourceKey.create(Registries.ITEM,BuiltInRegistries.BLOCK.getKey(moreGrindstoneBlock))).useBlockDescriptionPrefix();
+    }
 
     public static void registerItems() {
         registerItem(OAK_GRINDSTONE_I, Items.GRINDSTONE);

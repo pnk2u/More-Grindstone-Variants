@@ -21,9 +21,9 @@ public class MgvPoiTypes {
                 .getPointOfInterestStatesToType();
 
         Holder<PoiType> weaponsmithEntry = BuiltInRegistries.POINT_OF_INTEREST_TYPE
-                .getHolder(PoiTypes.WEAPONSMITH).get();
+                .get(PoiTypes.WEAPONSMITH).get();
 
-        PoiType weaponsmithPoiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.get(PoiTypes.WEAPONSMITH);
+        PoiType weaponsmithPoiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.getValue(PoiTypes.WEAPONSMITH);
 
         List<BlockState> weaponsmithBlockStates = new ArrayList<BlockState>(weaponsmithPoiType.matchingStates);
 

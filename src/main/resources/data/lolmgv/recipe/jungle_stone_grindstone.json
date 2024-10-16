@@ -3,15 +3,9 @@
   "category": "building",
   "group": "stone_grindstones",
   "key": {
-    "-": {
-      "item": "minecraft:stone_slab"
-    },
-    "P": {
-      "item": "minecraft:jungle_planks"
-    },
-    "|": {
-      "item": "minecraft:stick"
-    }
+    "-": "minecraft:stone_slab",
+    "P": "minecraft:jungle_planks",
+    "|": "minecraft:stick"
   },
   "pattern": [
     "|-|",
