@@ -1,9 +1,9 @@
-package com.pnku.mgv.poi;
+package de.pnku.mgv.poi;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableSet;
-import com.pnku.mgv.init.MgvBlockInit;
-import com.pnku.mgv.mixin.PoiTypesAccessor;
+import de.pnku.mgv.init.MgvBlockInit;
+import de.pnku.mgv.mixin.PoiTypesAccessor;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.entity.ai.village.poi.PoiType;

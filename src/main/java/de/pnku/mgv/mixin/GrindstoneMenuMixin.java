@@ -1,6 +1,6 @@
-package com.pnku.mgv.mixin;
+package de.pnku.mgv.mixin;
 
-import com.pnku.mgv.block.MoreGrindstoneBlock;
+import de.pnku.mgv.block.MoreGrindstoneBlock;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.ContainerLevelAccess;
 import net.minecraft.world.inventory.GrindstoneMenu;

@@ -1,6 +1,6 @@
 {
   "required": true ,
-  "package": "com.pnku.mgv.mixin" ,
+  "package": "de.pnku.mgv.mixin" ,
   "compatibilityLevel": "JAVA_21" ,
   "mixins": [
     "GrindstoneMenuMixin" ,
