@@ -3,15 +3,9 @@
   "category": "building",
   "group": "granite_grindstones",
   "key": {
-    "-": {
-      "tag": "lolmgv:granite_grindstone_ingredients"
-    },
-    "P": {
-      "item": "minecraft:acacia_planks"
-    },
-    "|": {
-      "item": "minecraft:stick"
-    }
+    "-": "#lolmgv:granite_grindstone_ingredients",
+    "P": "minecraft:acacia_planks",
+    "|": "minecraft:stick"
   },
   "pattern": [
     "|-|",

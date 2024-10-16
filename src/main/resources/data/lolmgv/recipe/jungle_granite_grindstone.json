@@ -3,15 +3,9 @@
   "category": "building",
   "group": "granite_grindstones",
   "key": {
-    "-": {
-      "tag": "lolmgv:granite_grindstone_ingredients"
-    },
-    "P": {
-      "item": "minecraft:jungle_planks"
-    },
-    "|": {
-      "item": "minecraft:stick"
-    }
+    "-": "#lolmgv:granite_grindstone_ingredients",
+    "P": "minecraft:jungle_planks",
+    "|": "minecraft:stick"
   },
   "pattern": [
     "|-|",

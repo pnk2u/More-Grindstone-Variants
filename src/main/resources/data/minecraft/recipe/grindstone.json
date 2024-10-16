@@ -14,15 +14,9 @@
   "category": "building",
   "group": "stone_grindstones",
   "key": {
-    "-": {
-      "item": "minecraft:stone_slab"
-    },
-    "P": {
-      "item": "minecraft:dark_oak_planks"
-    },
-    "|": {
-      "item": "minecraft:stick"
-    }
+    "-": "minecraft:stone_slab",
+    "P": "minecraft:dark_oak_planks",
+    "|": "minecraft:stick"
   },
   "pattern": [
     "|-|",

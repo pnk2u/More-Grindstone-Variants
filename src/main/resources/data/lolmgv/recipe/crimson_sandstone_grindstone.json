@@ -3,15 +3,9 @@
   "category": "building",
   "group": "sandstone_grindstones",
   "key": {
-    "-": {
-      "tag": "lolmgv:sandstone_grindstone_ingredients"
-    },
-    "P": {
-      "item": "minecraft:crimson_planks"
-    },
-    "|": {
-      "item": "minecraft:stick"
-    }
+    "-": "#lolmgv:sandstone_grindstone_ingredients",
+    "P": "minecraft:crimson_planks",
+    "|": "minecraft:stick"
   },
   "pattern": [
     "|-|",
