@@ -1,4 +1,4 @@
-package com.pnku.mgv.block;
+package de.pnku.mgv.block;
 
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.material.MapColor;

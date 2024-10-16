@@ -1,8 +1,8 @@
-package com.pnku.mgv;
+package de.pnku.mgv;
 
-import com.pnku.mgv.init.MgvBlockInit;
-import com.pnku.mgv.init.MgvItemInit;
-import com.pnku.mgv.poi.MgvPoiTypes;
+import de.pnku.mgv.init.MgvBlockInit;
+import de.pnku.mgv.init.MgvItemInit;
+import de.pnku.mgv.poi.MgvPoiTypes;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.ResourceLocation;
 

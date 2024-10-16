@@ -1,7 +1,7 @@
-package com.pnku.mgv.init;
+package de.pnku.mgv.init;
 
-import com.pnku.mgv.MoreGrindstoneVariants;
-import com.pnku.mgv.block.MoreGrindstoneBlock;
+import de.pnku.mgv.MoreGrindstoneVariants;
+import de.pnku.mgv.block.MoreGrindstoneBlock;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.level.block.Block;
