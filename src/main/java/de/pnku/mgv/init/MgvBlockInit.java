@@ -15,6 +15,7 @@ import static net.minecraft.world.level.block.Blocks.*;
 
 public class MgvBlockInit {
     public static final MoreGrindstoneBlock OAK_GRINDSTONE = new MoreGrindstoneBlock(MapColor.WOOD, "oak", OAK_PLANKS, "stone", STONE_SLAB, "oak_grindstone");
+    public static final MoreGrindstoneBlock PALE_OAK_GRINDSTONE = new MoreGrindstoneBlock(MapColor.QUARTZ, "pale_oak", PALE_OAK_PLANKS, "stone", STONE_SLAB, "pale_oak_grindstone");
     public static final MoreGrindstoneBlock SPRUCE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.PODZOL, "spruce", SPRUCE_PLANKS, "stone", STONE_SLAB, "spruce_grindstone");
     public static final MoreGrindstoneBlock BIRCH_GRINDSTONE = new MoreGrindstoneBlock(MapColor.SAND, "birch", BIRCH_PLANKS, "stone", STONE_SLAB, "birch_grindstone");
     public static final MoreGrindstoneBlock JUNGLE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.DIRT, "jungle", JUNGLE_PLANKS, "stone", STONE_SLAB, "jungle_grindstone");
@@ -25,6 +26,7 @@ public class MgvBlockInit {
     public static final MoreGrindstoneBlock CRIMSON_GRINDSTONE = new MoreGrindstoneBlock(MapColor.CRIMSON_STEM, SoundType.NETHER_WOOD,"crimson", CRIMSON_PLANKS, "stone", STONE_SLAB, "crimson_grindstone");
     public static final MoreGrindstoneBlock WARPED_GRINDSTONE = new MoreGrindstoneBlock(MapColor.WARPED_STEM, SoundType.NETHER_WOOD,"warped", WARPED_PLANKS, "stone", STONE_SLAB, "warped_grindstone");
     public static final MoreGrindstoneBlock OAK_SANDSTONE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.WOOD, "oak", OAK_PLANKS, "sandstone", SANDSTONE_SLAB, "oak_sandstone_grindstone");
+    public static final MoreGrindstoneBlock PALE_OAK_SANDSTONE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.QUARTZ, "pale_oak", PALE_OAK_PLANKS, "sandstone", SANDSTONE_SLAB, "pale_oak_sandstone_grindstone");
     public static final MoreGrindstoneBlock DARK_OAK_SANDSTONE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.COLOR_BROWN, "dark_oak", DARK_OAK_PLANKS, "sandstone", SANDSTONE_SLAB, "dark_oak_sandstone_grindstone");
     public static final MoreGrindstoneBlock SPRUCE_SANDSTONE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.PODZOL, "spruce", SPRUCE_PLANKS, "sandstone", SANDSTONE_SLAB, "spruce_sandstone_grindstone");
     public static final MoreGrindstoneBlock BIRCH_SANDSTONE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.SAND, "birch", BIRCH_PLANKS, "sandstone", SANDSTONE_SLAB, "birch_sandstone_grindstone");
@@ -36,6 +38,7 @@ public class MgvBlockInit {
     public static final MoreGrindstoneBlock CRIMSON_SANDSTONE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.CRIMSON_STEM, SoundType.NETHER_WOOD,"crimson", CRIMSON_PLANKS, "sandstone", SANDSTONE_SLAB, "crimson_sandstone_grindstone");
     public static final MoreGrindstoneBlock WARPED_SANDSTONE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.WARPED_STEM, SoundType.NETHER_WOOD,"warped", WARPED_PLANKS, "sandstone", SANDSTONE_SLAB, "warped_sandstone_grindstone");
     public static final MoreGrindstoneBlock OAK_DEEPSLATE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.WOOD, "oak", OAK_PLANKS, "deepslate", POLISHED_DEEPSLATE_SLAB, "oak_deepslate_grindstone");
+    public static final MoreGrindstoneBlock PALE_OAK_DEEPSLATE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.QUARTZ, "pale_oak", PALE_OAK_PLANKS, "deepslate", POLISHED_DEEPSLATE_SLAB, "pale_oak_deepslate_grindstone");
     public static final MoreGrindstoneBlock DARK_OAK_DEEPSLATE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.COLOR_BROWN, "dark_oak", DARK_OAK_PLANKS, "deepslate", POLISHED_DEEPSLATE_SLAB, "dark_oak_deepslate_grindstone");
     public static final MoreGrindstoneBlock SPRUCE_DEEPSLATE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.PODZOL, "spruce", SPRUCE_PLANKS, "deepslate", POLISHED_DEEPSLATE_SLAB, "spruce_deepslate_grindstone");
     public static final MoreGrindstoneBlock BIRCH_DEEPSLATE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.SAND, "birch", BIRCH_PLANKS, "deepslate", POLISHED_DEEPSLATE_SLAB, "birch_deepslate_grindstone");
@@ -47,6 +50,7 @@ public class MgvBlockInit {
     public static final MoreGrindstoneBlock CRIMSON_DEEPSLATE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.CRIMSON_STEM, SoundType.NETHER_WOOD,"crimson", CRIMSON_PLANKS, "deepslate", POLISHED_DEEPSLATE_SLAB, "crimson_deepslate_grindstone");
     public static final MoreGrindstoneBlock WARPED_DEEPSLATE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.WARPED_STEM, SoundType.NETHER_WOOD,"warped", WARPED_PLANKS, "deepslate", POLISHED_DEEPSLATE_SLAB, "warped_deepslate_grindstone");
     public static final MoreGrindstoneBlock OAK_BASALT_GRINDSTONE = new MoreGrindstoneBlock(MapColor.WOOD, "oak", OAK_PLANKS, "basalt", BASALT, "oak_basalt_grindstone");
+    public static final MoreGrindstoneBlock PALE_OAK_BASALT_GRINDSTONE = new MoreGrindstoneBlock(MapColor.QUARTZ, "pale_oak", PALE_OAK_PLANKS, "basalt", BASALT, "pale_oak_basalt_grindstone");
     public static final MoreGrindstoneBlock DARK_OAK_BASALT_GRINDSTONE = new MoreGrindstoneBlock(MapColor.COLOR_BROWN, "dark_oak", DARK_OAK_PLANKS, "basalt", BASALT, "dark_oak_basalt_grindstone");
     public static final MoreGrindstoneBlock SPRUCE_BASALT_GRINDSTONE = new MoreGrindstoneBlock(MapColor.PODZOL, "spruce", SPRUCE_PLANKS, "basalt", BASALT, "spruce_basalt_grindstone");
     public static final MoreGrindstoneBlock BIRCH_BASALT_GRINDSTONE = new MoreGrindstoneBlock(MapColor.SAND, "birch", BIRCH_PLANKS, "basalt", BASALT, "birch_basalt_grindstone");
@@ -58,6 +62,7 @@ public class MgvBlockInit {
     public static final MoreGrindstoneBlock CRIMSON_BASALT_GRINDSTONE = new MoreGrindstoneBlock(MapColor.CRIMSON_STEM, SoundType.NETHER_WOOD,"crimson", CRIMSON_PLANKS, "basalt", BASALT, "crimson_basalt_grindstone");
     public static final MoreGrindstoneBlock WARPED_BASALT_GRINDSTONE = new MoreGrindstoneBlock(MapColor.WARPED_STEM, SoundType.NETHER_WOOD,"warped", WARPED_PLANKS, "basalt", BASALT, "warped_basalt_grindstone");
     public static final MoreGrindstoneBlock OAK_GRANITE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.WOOD, "oak", OAK_PLANKS, "granite", GRANITE_SLAB, "oak_granite_grindstone");
+    public static final MoreGrindstoneBlock PALE_OAK_GRANITE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.QUARTZ, "pale_oak", PALE_OAK_PLANKS, "granite", GRANITE_SLAB, "pale_oak_granite_grindstone");
     public static final MoreGrindstoneBlock DARK_OAK_GRANITE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.COLOR_BROWN, "dark_oak", DARK_OAK_PLANKS, "granite", GRANITE_SLAB, "dark_oak_granite_grindstone");
     public static final MoreGrindstoneBlock SPRUCE_GRANITE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.PODZOL, "spruce", SPRUCE_PLANKS, "granite", GRANITE_SLAB, "spruce_granite_grindstone");
     public static final MoreGrindstoneBlock BIRCH_GRANITE_GRINDSTONE = new MoreGrindstoneBlock(MapColor.SAND, "birch", BIRCH_PLANKS, "granite", GRANITE_SLAB, "birch_granite_grindstone");
@@ -74,6 +79,7 @@ public class MgvBlockInit {
 
     public static void registerBlocks() {
         registerBlock(OAK_GRINDSTONE);
+        registerBlock(PALE_OAK_GRINDSTONE);
         registerBlock(SPRUCE_GRINDSTONE);
         registerBlock(BIRCH_GRINDSTONE);
         registerBlock(JUNGLE_GRINDSTONE);
@@ -84,6 +90,7 @@ public class MgvBlockInit {
         registerBlock(CRIMSON_GRINDSTONE);
         registerBlock(WARPED_GRINDSTONE);
         registerBlock(OAK_SANDSTONE_GRINDSTONE);
+        registerBlock(PALE_OAK_SANDSTONE_GRINDSTONE);
         registerBlock(DARK_OAK_SANDSTONE_GRINDSTONE);
         registerBlock(SPRUCE_SANDSTONE_GRINDSTONE);
         registerBlock(BIRCH_SANDSTONE_GRINDSTONE);
@@ -95,6 +102,7 @@ public class MgvBlockInit {
         registerBlock(CRIMSON_SANDSTONE_GRINDSTONE);
         registerBlock(WARPED_SANDSTONE_GRINDSTONE);
         registerBlock(OAK_DEEPSLATE_GRINDSTONE);
+        registerBlock(PALE_OAK_DEEPSLATE_GRINDSTONE);
         registerBlock(DARK_OAK_DEEPSLATE_GRINDSTONE);
         registerBlock(SPRUCE_DEEPSLATE_GRINDSTONE);
         registerBlock(BIRCH_DEEPSLATE_GRINDSTONE);
@@ -106,6 +114,7 @@ public class MgvBlockInit {
         registerBlock(CRIMSON_DEEPSLATE_GRINDSTONE);
         registerBlock(WARPED_DEEPSLATE_GRINDSTONE);
         registerBlock(OAK_BASALT_GRINDSTONE);
+        registerBlock(PALE_OAK_BASALT_GRINDSTONE);
         registerBlock(DARK_OAK_BASALT_GRINDSTONE);
         registerBlock(SPRUCE_BASALT_GRINDSTONE);
         registerBlock(BIRCH_BASALT_GRINDSTONE);
@@ -117,6 +126,7 @@ public class MgvBlockInit {
         registerBlock(CRIMSON_BASALT_GRINDSTONE);
         registerBlock(WARPED_BASALT_GRINDSTONE);
         registerBlock(OAK_GRANITE_GRINDSTONE);
+        registerBlock(PALE_OAK_GRANITE_GRINDSTONE);
         registerBlock(DARK_OAK_GRANITE_GRINDSTONE);
         registerBlock(SPRUCE_GRANITE_GRINDSTONE);
         registerBlock(BIRCH_GRANITE_GRINDSTONE);
