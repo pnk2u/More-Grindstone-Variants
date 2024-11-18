@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "sandstone_grindstones",
+  "key": {
+    "-": "#lolmgv:sandstone_grindstone_ingredients",
+    "P": "minecraft:pale_oak_planks",
+    "|": "minecraft:stick"
+  },
+  "pattern": [
+    "|-|",
+    "P P"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lolmgv:pale_oak_sandstone_grindstone"
+  }
+}
