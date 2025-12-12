@@ -1,0 +1,8 @@
+{
+  "parent": "block/grindstone",
+  "textures": {
+    "round": "lolmgv:block/deepslate_grindstone_round",
+    "side": "lolmgv:block/deepslate_grindstone_side",
+    "particle": "lolmgv:block/deepslate_grindstone_side"
+  }
+}
