@@ -1,3 +1,18 @@
+<a name="1.1.4"></a>
+### 1.1.4:
+- Change _**Bamboo** Grindstone_ model to use _Bamboo Block_ texture instead of its _Stripped_ variant to be more consistent with the other variants
+- Improve texture compression and remove redundancy in model definitions to reduce mod file size by ~20%
+> **Note for `1.21.4(-11)`**:  
+> The newest version `1.4.13` of <ins>More Stick Variants</ins> (&#x200A;<sub><a title="More Stick Variants&#10;on Modrinth" href="https://modrinth.com/mod/more-stick-variants/"><img width=20 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a></sub><!--SEPARATOR_V:GH--><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"><sub><a title="More Stick Variants&#10;on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/more-stick-variants/"><img width=20 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a></sub>&#x200A;) fixes an issue with the _**Pale Oak** Stone Grindstone_ crafting recipe incorrectly resulting in _**Dark Oak** Stone Grindstones_ (vanilla variant).
+
+<h2><sub><sub><sup><ins>Download 1.1.4 + 1.21(.1)</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Grindstone Variants 1.1.4 + 1.21(.1)" href="https://www.modrinth.com/mod/VNYXl8f7/version/CAUobHlE">
+<img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>
+<sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
+<a title="Download (Curseforge):&#10;1.1.4 + 1.21(.1) - More Grindstone Variants" href="https://www.curseforge.com/minecraft/mc-mods/more-grindstone-variants/files/7324012">
+<img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
+</sub></sub></h2>
+
 <a name="1.1.3"></a>
 ### 1.1.3:
 - `1.21.4(5)`: Update to <ins>1.21.5</ins>
