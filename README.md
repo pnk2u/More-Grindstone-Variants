@@ -62,16 +62,18 @@ Currently available in:
 ### Versions
 <a name="most-recent-version"></a>
 <!--CHANGELOG:START-->
-<a name="1.1.3"></a>
-#### 1.1.3[*](#footnote-*):
-- `1.21.4(5)`: Update to <ins>1.21.5</ins>
+<a name="1.1.4"></a>
+#### 1.1.4[*](#footnote-*):
+- `1.21.4(-11)`: Fix _**Pale Oak** Grindstone_ crafting recipes producing _**Dark Oak** Grindstones_
+- Change _**Bamboo** Grindstone_ model to use _Bamboo Block_ texture instead of its _Stripped_ variant to be more consistent with the other variants
+- Improve texture compression and remove redundancy in model definitions to reduce mod file size by ~20%
 
-<h2><sub><sub><sup><ins>Download 1.1.3 + 1.21(.1)</ins>:</sup>&#x200A;
-<a title="Download (Modrinth):&#10;More Grindstone Variants 1.1.3 + 1.21(.1)" href="https://modrinth.com/mod/more-grindstone-variants/version/1jdcRtGI">
-<img width=26 src="https://img.shields.io/badge/-%20-%230f91?style=flat&logo=modrinth"></a>
+<h2><sub><sub><sup><ins>Download 1.1.4 + 1.20.1</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Grindstone Variants 1.1.4 + 1.20.1" href="https://www.modrinth.com/mod/VNYXl8f7/version/Y2Qh5r2Y">
+<img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>
 <sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
-<a title="Download (Curseforge):&#10;More Grindstone Variants 1.1.3 + 1.21(.1)" href="https://www.curseforge.com/minecraft/mc-mods/more-grindstone-variants/files/6349086">
-<img width=26 src="https://img.shields.io/badge/--%23f062?style=flat&logo=curseforge"></a>
+<a title="Download (Curseforge):&#10;1.1.4 + 1.20.1 - More Grindstone Variants" href="https://www.curseforge.com/minecraft/mc-mods/more-grindstone-variants/files/7323993">
+<img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
 </sub></sub></h2>
 
 <!--CHANGELOG:END-->
