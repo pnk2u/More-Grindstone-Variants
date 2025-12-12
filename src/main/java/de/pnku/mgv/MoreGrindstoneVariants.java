@@ -4,7 +4,7 @@ import de.pnku.mgv.init.MgvBlockInit;
 import de.pnku.mgv.init.MgvItemInit;
 import de.pnku.mgv.poi.MgvPoiTypes;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 
 public class MoreGrindstoneVariants implements ModInitializer {
     public static final String MODID = "lolmgv";
@@ -16,7 +16,7 @@ public class MoreGrindstoneVariants implements ModInitializer {
         MgvPoiTypes.init();
     }
 
-    public static ResourceLocation asId(String path) {
-        return ResourceLocation.fromNamespaceAndPath(MODID, path);
+    public static Identifier asId(String path) {
+        return Identifier.fromNamespaceAndPath(MODID, path);
     }
 }
