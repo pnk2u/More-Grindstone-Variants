@@ -1,4 +1,4 @@
-<!--publish=false-->
+<!--publish=true-->
 ### 1.1.4:
 - Change _**Bamboo** Grindstone_ model to use _Bamboo Block_ texture instead of its _Stripped_ variant to be more consistent with the other variants
 - Improve texture compression and remove redundancy in model definitions to reduce mod file size by ~20%
