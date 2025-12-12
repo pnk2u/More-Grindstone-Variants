@@ -2,6 +2,6 @@
   "parent": "lolmgv:block/sandstone_grindstone",
   "textures": {
     "pivot": "lolmgv:block/bamboo_grindstone_pivot",
-    "leg": "block/stripped_bamboo_block"
+    "leg": "block/bamboo_block"
   }
 }
