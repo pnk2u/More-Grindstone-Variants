@@ -2,7 +2,7 @@ package de.pnku.mgv.init;
 
 import de.pnku.mgv.MoreGrindstoneVariants;
 import de.pnku.mgv.block.MoreGrindstoneBlock;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -147,6 +147,6 @@ public class MgvItemInit {
     private static void registerItem(BlockItem grindstone, Item grindstoneAfter) {
         Registry.register(BuiltInRegistries.ITEM, MoreGrindstoneVariants.asId(((MoreGrindstoneBlock) grindstone.getBlock()).grindstoneWoodType + "_" + ((MoreGrindstoneBlock) grindstone.getBlock()).grindstoneStoneType + "_grindstone"), grindstone);
 
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.addAfter(grindstoneAfter, grindstone));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.insertAfter(grindstoneAfter, grindstone));
     }
 }
