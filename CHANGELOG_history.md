@@ -1,3 +1,19 @@
+<a name="1.1.5"></a>
+### 1.1.5:
+- `26.1`: Update to <ins>26.1</ins>
+- Add Japanese translation (Thanks to [@HayaKoh-WeldyAlin](https://www.github.com/HayaKoh-WeldyAlin))
+
+<br></br>
+<sub>License update to [`CC-BY-NC-SA-4.0`](https://creativecommons.org/licenses/by-nc-sa/4.0/) (previously [`MIT`](https://choosealicense.com/licenses/mit))</sub>
+
+<h2><sub><sub><sup><ins>Download 1.1.5 + 26.1</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Grindstone Variants 1.1.5 + 26.1" href="https://www.modrinth.com/mod/VNYXl8f7/version/hiTEjCZF">
+<img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>
+<sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
+<a title="Download (Curseforge):&#10;1.1.5 + 26.1 - More Grindstone Variants" href="https://www.curseforge.com/minecraft/mc-mods/more-grindstone-variants/files/7852514">
+<img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
+</sub></sub></h2>
+
 <a name="1.1.4"></a>
 ### 1.1.4:
 - Change _**Bamboo** Grindstone_ model to use _Bamboo Block_ texture instead of its _Stripped_ variant to be more consistent with the other variants
